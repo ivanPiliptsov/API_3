@@ -152,13 +152,13 @@
 
 ### Получить всех пользователей
 
-```json
+```bush
 curl -X GET http://localhost:8000/users
 ```
 
 ### Создать нового пользователя
 
-```json
+```bush
 curl -X POST http://localhost:8000/users
   -H "Content-Type: application/json" \
   -d '{"name": "Алексей", "email": "alex@example.com"}'
@@ -166,7 +166,7 @@ curl -X POST http://localhost:8000/users
 
 ### Обновить пользователя
 
-```json
+```bush
 curl -X PUT http://localhost:8000/users/1
   -H "Content-Type: application/json" \
   -d '{"name": "Иван Иванов", "email": "ivanov@example.com"}'
@@ -174,7 +174,7 @@ curl -X PUT http://localhost:8000/users/1
 
 ### Удалить пользователя
 
-```json
+```bush
 curl -X DELETE http://localhost:8000/users/1
 ```
 
